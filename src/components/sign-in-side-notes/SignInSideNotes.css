@@ -1,0 +1,39 @@
+.notes-main__container {
+  display: block;
+  background: rgb(33, 36, 40);
+  min-height: 100vh;
+  max-width: 47%;
+  margin-right: auto;
+  color: rgb(0, 255, 0);
+  font-family: monospace;
+}
+
+.main-notes__line {
+  display: flex;
+  justify-content: center;
+  margin: 42px 84px 24px 84px;
+  font-size: 42px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.main-notes__paragraph {
+  display: flex;
+  margin: 42px 84px 24px 84px;
+  font-size: 1.05rem;
+}
+
+.main-notes__lists {
+  margin: 32px 84px 18px 84px;
+}
+
+.main-notes__list {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin: 32px 12px 8px 12px;
+}
+
+.main-notes__desc {
+  font-size: 16px;
+}

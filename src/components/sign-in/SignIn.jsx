@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Forminput from "components/form-input/FormInput";
+import SignInSideNotes from "components/sign-in-side-notes/SignInSideNotes";
 
 import "./SignIn.css";
 
@@ -22,6 +23,7 @@ class SignIn extends Component {
   render() {
     return (
       <div className='sign-in-container'>
+        <SignInSideNotes />
         <div className='sign-in'>
           <h2 className='sign-in__title'>Log in to Hacker Noon</h2>
           <form>
@@ -41,6 +43,13 @@ class SignIn extends Component {
               label='Password'
               required
             />
+
+            <div className='sign-in__container'>
+              <button className='forget-password__btn'>Forgot password</button>
+              <button className='sign-in__btn' type='submit'>
+                Log In
+              </button>
+            </div>
           </form>
         </div>
       </div>
